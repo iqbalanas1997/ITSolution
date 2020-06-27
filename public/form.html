@@ -12,11 +12,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="public/assets/css/style.css" />
     <link rel="shortcut icon" type="image/png" href="ITS logo copy.png">
+    <link rel="stylesheet" href="assets/css/style.css">
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
+
+<style type="text/css">
+    .satu {
+        max-width: 350;
+        height: 70vh;
+    }
+
+    .dua {
+        height: 100%;
+        overflow: auto;
+    }
+</style>
 
 <body class="is-preload">
 
@@ -44,12 +56,13 @@
             <ul class="links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="Rules.html">Rules</a></li>
-                <li class="active"><a href="sampleForm.html">How To Work</a></li>
-                <li><a href="Policy.html">Policy / Terms & Conditions</a></li>
+                <li><a href="sampleForm.html">How To Work</a></li>
+                <li><a href="policy.html">Policy / Terms & Conditions</a></li>
+                <li class="active"><a href="#">Training</a></li>
             </ul>
 
-        </nav>
 
+        </nav>
 
 
         <!-- Main -->
@@ -67,70 +80,935 @@
                                     style="color: #427900   ;">Work </span>
                                 </span>
                             </h3>
-                            <p style="text-align: center;"><span style="color:#0e6804 ;">____</span> <img
-                                    src="favicon.png">
-                                <span style="color:#0e6804 ;">____</span>
+                            <p style="text-align: center;"><span style="color:#ff0000 ;">____</span> <img src="its.PNG"
+                                    style="width: 40px; height: 20px;">
+                                <span style="color:#ff0000 ;">____</span>
                             </p>
 
                         </div>
 
                         <div class="row" style="text-align: center;">
-                            <div class="col-sm-12 col-md-6 col-lg-6" style="background-color: gray">
-                                <div>
-                                    <img src="SampleForm-page0001.jpg" alt="" style="width: 80%; height: 60%;">
-                                </div>
+
+                            <div class="col-sm-12 col-md-5 col-lg-5">
+
+                                <img src="SampleForm-page0001.jpg" alt=""
+                                    style="max-width: 100%; max-height: 100%; display: block;">
+
                             </div>
 
 
-                            <div class="col-sm-12 col-md-6 col-lg-6 my-4">
-
-                                <table>
-
-                                    <tr>
-                                        <td>Form No. : </td>
-                                    </tr>
-                                    <tr>
-                                        <input type="text" name="firstname" placeholder="Enter First Name">
-                                    </tr>
-
-                                </table>
 
 
+                            <div class="satu col-sm-12 col-md-7 col-lg-7 my-4">
+                                <div class="dua" style="text-align: left;">
 
+
+                                    <form>
+
+                                        <!-- File Name -->
+                                        <div class="row">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">File Name</label>
+                                                    <input class="mt-1" type="text" value="900" id="result" disabled
+                                                        style="background-color: lightgray;">
+                                            </div>
+
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+
+                                                <img src="iicon.png" width="40" height="40">
+                                                <div>
+                                                    <span>File Name will be auto increment</span>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+
+
+
+
+                                        <!-- Form Number -->
+                                        <div class="row mt-0">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Form Number</label>
+                                                    <input id="t1" class="mt-1" placeholder="Form Number" type="text"
+                                                        id="result2">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn2(
+                                            document.getElementById('result2').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn2(
+                                            document.getElementById('result2').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn2(
+                                            document.getElementById('result2').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn2(
+                                            document.getElementById('result2').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+                                        <!-- Company Code -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Company Code</label>
+                                                    <input id="t2" class="mt-1" class="mt-1" placeholder="Company Code"
+                                                        type="text" id="result3">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn3(
+                                            document.getElementById('result3').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn3(
+                                            document.getElementById('result3').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn3(
+                                            document.getElementById('result3').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn3(
+                                            document.getElementById('result3').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+
+
+                                        <!-- Company Name -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Company Name</label>
+                                                    <input id="t3" class="mt-1" placeholder="Company Name" type="text"
+                                                        id="result4">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn4(
+                                            document.getElementById('result4').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn4(
+                                            document.getElementById('result4').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn4(
+                                            document.getElementById('result4').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn4(
+                                            document.getElementById('result4').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+
+                                        <!-- Company Address -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Company Address</label>
+                                                    <input id="t4" class="mt-1" placeholder="Company Address" type="text"
+                                                        id="result5">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn5(
+                                            document.getElementById('result5').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn5(
+                                            document.getElementById('result5').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn5(
+                                            document.getElementById('result5').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn5(
+                                            document.getElementById('result5').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+
+                                        <!-- Zip Code -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Zip Code</label>
+                                                    <input id="t5" class="mt-1" placeholder="Zip Code" type="text" id="result6">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn6(
+                                            document.getElementById('result6').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn6(
+                                            document.getElementById('result6').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn6(
+                                            document.getElementById('result6').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn6(
+                                            document.getElementById('result6').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+
+
+                                        <!-- FAX -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Fax</label>
+                                                    <input id="t6" class="mt-1" placeholder="Fax" type="text" id="result7">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn7(
+                                            document.getElementById('result7').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn7(
+                                            document.getElementById('result7').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn7(
+                                            document.getElementById('result7').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn7(
+                                            document.getElementById('result7').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                        <!-- Website -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Website</label>
+                                                    <input id="t7" class="mt-1" placeholder="Website" type="text" id="result8">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn8(
+                                            document.getElementById('result8').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn8(
+                                            document.getElementById('result8').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn8(
+                                            document.getElementById('result8').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn8(
+                                            document.getElementById('result8').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <!-- Email -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Email</label>
+                                                    <input id="t8" class="mt-1" placeholder="Email" type="text" id="result9">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn9(
+                                            document.getElementById('result9').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn9(
+                                            document.getElementById('result9').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn9(
+                                            document.getElementById('result9').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn9(
+                                            document.getElementById('result9').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <!-- Contact -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Contact</label>
+                                                    <input id="t9" class="mt-1" placeholder="Contact" type="text" id="result10">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn10(
+                                            document.getElementById('result10').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn10(
+                                            document.getElementById('result10').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn10(
+                                            document.getElementById('result10').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn10(
+                                            document.getElementById('result10').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <!-- State -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">State</label>
+                                                    <input id="t10" class="mt-1" placeholder="State" type="text" id="result11">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn11(
+                                            document.getElementById('result11').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn11(
+                                            document.getElementById('result11').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn11(
+                                            document.getElementById('result11').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn11(
+                                            document.getElementById('result11').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                        <!-- Country -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Country</label>
+                                                    <input id="t11" class="mt-1" placeholder="Country" type="text" id="result12">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn12(
+                                            document.getElementById('result12').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn12(
+                                            document.getElementById('result12').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn12(
+                                            document.getElementById('result12').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn12(
+                                            document.getElementById('result12').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+
+
+                                        <!-- Head Quarter -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Head Quarter</label>
+                                                    <input id="t12" class="mt-1" placeholder="Head Quarter" type="text"
+                                                        id="result13">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn13(
+                                            document.getElementById('result13').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn13(
+                                            document.getElementById('result13').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn13(
+                                            document.getElementById('result13').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn13(
+                                            document.getElementById('result13').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+
+                                        </div>
+
+
+
+
+                                        <!-- Number Of Employees -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Number Of Employees</label>
+                                                    <input id="t13" class="mt-1" placeholder="Number Of Employees" type="text"
+                                                        id="result14">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn14(
+                                            document.getElementById('result14').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn14(
+                                            document.getElementById('result14').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn14(
+                                            document.getElementById('result14').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn14(
+                                            document.getElementById('result14').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+
+
+                                        <!-- Industry -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Industry</label>
+                                                <input id="t14" class="mt-1" placeholder="Industry" type="text"
+                                                        id="result15">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn15(
+                                            document.getElementById('result15').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn15(
+                                            document.getElementById('result15').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn15(
+                                            document.getElementById('result15').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn15(
+                                            document.getElementById('result15').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+
+
+                                        <!-- Brand Ambassador -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Brand Ambassador</label>
+                                                    <input id="t15" class="mt-1" placeholder="Brand Ambassador" type="text"
+                                                        id="result16">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn16(
+                                            document.getElementById('result16').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn16(
+                                            document.getElementById('result16').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn16(
+                                            document.getElementById('result16').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn16(
+                                            document.getElementById('result16').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <!-- Media Partner -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Media Partner</label>
+                                                    <input id="t16" class="mt-1" placeholder="Media Partner" type="text"
+                                                        id="result17">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn17(
+                                            document.getElementById('result17').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn17(
+                                            document.getElementById('result17').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn17(
+                                            document.getElementById('result17').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn17(
+                                            document.getElementById('result17').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                        <!-- Social Media -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Social Media</label>
+                                                    <input id="t17" class="mt-1" placeholder="Social Media" type="text"
+                                                        id="result18">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn18(
+                                            document.getElementById('result18').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn18(
+                                            document.getElementById('result18').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn18(
+                                            document.getElementById('result18').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn18(
+                                            document.getElementById('result18').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                        <!-- Franchise Partner -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Franchise Partner</label>
+                                                    <input id="t18" class="mt-1" placeholder="Franchise Partner" type="text"
+                                                        id="result19">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn19(
+                                            document.getElementById('result19').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn19(
+                                            document.getElementById('result19').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn19(
+                                            document.getElementById('result19').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn19(
+                                            document.getElementById('result19').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <!-- Investor -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Investor</label>
+                                                    <input id="t19" class="mt-1" placeholder="Investor" type="text"
+                                                        id="result20">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn20(
+                                            document.getElementById('result20').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn20(
+                                            document.getElementById('result20').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn20(
+                                            document.getElementById('result20').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn20(
+                                            document.getElementById('result20').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <!-- Advertising Media -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Advertising Media</label>
+                                                    <input id="t20" class="mt-1" placeholder="Advertising Media" type="text"
+                                                        id="result21">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn21(
+                                            document.getElementById('result21').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn21(
+                                            document.getElementById('result21').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn21(
+                                            document.getElementById('result21').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn21(
+                                            document.getElementById('result21').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <!-- Product -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Product</label>
+                                                    <input id="t21" class="mt-1" placeholder="Product" type="text" id="result22">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn22(
+                                            document.getElementById('result22').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn22(
+                                            document.getElementById('result22').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn22(
+                                            document.getElementById('result22').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn22(
+                                            document.getElementById('result22').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <!-- Services -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Services</label>
+                                                    <input id="t22" class="mt-1" placeholder="Services" type="text"
+                                                        id="result23">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn23(
+                                            document.getElementById('result23').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn23(
+                                            document.getElementById('result23').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn23(
+                                            document.getElementById('result23').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn23(
+                                            document.getElementById('result23').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+
+                                        </div>
+
+
+                                        <!-- Manager -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Manager</label>
+                                                    <input id="t23" class="mt-1" placeholder="Manager" type="text" id="result24">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn24(
+                                            document.getElementById('result24').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn24(
+                                            document.getElementById('result24').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn24(
+                                            document.getElementById('result24').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn24(
+                                            document.getElementById('result24').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+
+
+
+
+
+
+                                        <!-- Sub Classification -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Sub Classification</label>
+                                                    <input id="t24" class="mt-1" placeholder="Sub Classification" type="text"
+                                                        id="result25">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn25(
+                                            document.getElementById('result25').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn25(
+                                            document.getElementById('result25').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn25(
+                                            document.getElementById('result25').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn25(
+                                            document.getElementById('result25').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+
+                                        </div>
+
+
+
+                                        <!-- Registration Date -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Registration Date</label>
+                                                    <input id="t25" class="mt-1" placeholder="Registration Date" type="text"
+                                                        id="result26">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn26(
+                                            document.getElementById('result26').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn26(
+                                            document.getElementById('result26').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn26(
+                                            document.getElementById('result26').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn26(
+                                            document.getElementById('result26').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+
+
+                                        <!-- Yearly Revenue -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Yearly Revenue</label>
+                                                    <input id="t26" class="mt-1" placeholder="Yearly Revenue" type="text"
+                                                        id="result27">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn27(
+                                            document.getElementById('result27').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn27(
+                                            document.getElementById('result27').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn27(
+                                            document.getElementById('result27').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn27(
+                                            document.getElementById('result27').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <!-- Land Mark -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Land Mark</label>
+                                                    <input id="t27" class="mt-1" placeholder="Land Mark" type="text"
+                                                        id="result28">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn28(
+                                            document.getElementById('result28').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn28(
+                                            document.getElementById('result28').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn28(
+                                            document.getElementById('result28').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn28(
+                                            document.getElementById('result28').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <!-- Account Audit -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Account Audit</label>
+                                                    <input id="t28" class="mt-1" placeholder="Account Audit" type="text"
+                                                        id="result29">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn29(
+                                            document.getElementById('result29').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn29(
+                                            document.getElementById('result29').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn29(
+                                            document.getElementById('result29').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn29(
+                                            document.getElementById('result29').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <!-- Currency -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Currency</label>
+                                                    <input id="t29" class="mt-1" placeholder="Currency" type="text"
+                                                        id="result30">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn30(
+                                            document.getElementById('result30').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn30(
+                                            document.getElementById('result30').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn30(
+                                            document.getElementById('result30').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn30(
+                                            document.getElementById('result30').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <!-- Yearly Expense -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-6 col-sm-6 col-md-6">
+                                                <label">Yearly Expense</label>
+                                                    <input id="t30" class="mt-1" placeholder="Yearly Expense" type="text"
+                                                        id="result31">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-md-6 mt-4">
+                                                <img onclick="B_btn31(
+                                            document.getElementById('result31').value
+                                            )" src="B.PNG" width="40" height="40">
+
+                                                <img onclick="I_btn31(
+                                            document.getElementById('result31').value
+                                            )" src="I.PNG" width="40" height="40">
+
+                                                <img onclick="U_btn31(
+                                            document.getElementById('result31').value
+                                            )" src="U.PNG" width="40" height="40">
+
+                                                <img onclick="R_btn31(
+                                            document.getElementById('result31').value
+                                            )" src="R.PNG" width="40" height="40">
+                                            </div>
+                                        </div>
+
+
+                                        
+
+
+
+
+
+
+
+                                        <div class="mt-5" style="text-align: center;">
+                                            <input type="button" onclick="btnSubmit()"
+                                                class="border border-danger" value="Submit"></input>
+                                        </div>
+                                    </form>
+
+
+                                </div>
                             </div>
 
 
                         </div>
                     </div>
+
+
+
+
                 </div>
-
-
-
-
-
-               
-
-
-
-
-
-
-
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -195,7 +1073,606 @@
 
     </div>
 
+
+
     <!-- Scripts -->
+    <script>
+
+        //File Name
+        function B_btn(text) {
+            document.getElementById("result").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn(text1) {
+            document.getElementById("result").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn(text2) {
+            document.getElementById("result").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn(text3) {
+            document.getElementById("result").value = "<R>" + text3 + "</R>";
+        }
+
+
+        // Form Number
+        function B_btn2(text) {
+            document.getElementById("result2").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn2(text1) {
+            document.getElementById("result2").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn2(text2) {
+            document.getElementById("result2").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn2(text3) {
+            document.getElementById("result2").value = "<R>" + text3 + "</R>";
+        }
+
+
+        //Company Code
+        function B_btn3(text) {
+            document.getElementById("result3").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn3(text1) {
+            document.getElementById("result3").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn3(text2) {
+            document.getElementById("result3").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn3(text3) {
+            document.getElementById("result3").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+        //Company Code
+        function B_btn4(text) {
+            document.getElementById("result4").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn4(text1) {
+            document.getElementById("result4").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn4(text2) {
+            document.getElementById("result4").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn4(text3) {
+            document.getElementById("result4").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+
+        //Company Code
+        function B_btn5(text) {
+            document.getElementById("result5").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn5(text1) {
+            document.getElementById("result5").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn5(text2) {
+            document.getElementById("result5").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn5(text3) {
+            document.getElementById("result5").value = "<R>" + text3 + "</R>";
+        }
+
+
+        //Company Code
+        function B_btn6(text) {
+            document.getElementById("result6").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn6(text1) {
+            document.getElementById("result6").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn6(text2) {
+            document.getElementById("result6").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn6(text3) {
+            document.getElementById("result6").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+        //Company Code
+        function B_btn7(text) {
+            document.getElementById("result7").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn7(text1) {
+            document.getElementById("result7").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn7(text2) {
+            document.getElementById("result7").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn7(text3) {
+            document.getElementById("result7").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+        //Company Code
+        function B_btn8(text) {
+            document.getElementById("result8").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn8(text1) {
+            document.getElementById("result8").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn8(text2) {
+            document.getElementById("result8").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn8(text3) {
+            document.getElementById("result8").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+        //Company Code
+        function B_btn9(text) {
+            document.getElementById("result9").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn9(text1) {
+            document.getElementById("result9").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn9(text2) {
+            document.getElementById("result9").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn9(text3) {
+            document.getElementById("result9").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+
+        //Company Code
+        function B_btn10(text) {
+            document.getElementById("result10").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn10(text1) {
+            document.getElementById("result10").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn10(text2) {
+            document.getElementById("result10").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn10(text3) {
+            document.getElementById("result10").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+
+        //Company Code
+        function B_btn11(text) {
+            document.getElementById("result11").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn11(text1) {
+            document.getElementById("result11").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn11(text2) {
+            document.getElementById("result11").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn11(text3) {
+            document.getElementById("result11").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+
+        //Company Code
+        function B_btn12(text) {
+            document.getElementById("result12").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn12(text1) {
+            document.getElementById("result12").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn12(text2) {
+            document.getElementById("result12").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn12(text3) {
+            document.getElementById("result12").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+        //Company Code
+        function B_btn13(text) {
+            document.getElementById("result13").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn13(text1) {
+            document.getElementById("result13").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn13(text2) {
+            document.getElementById("result13").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn13(text3) {
+            document.getElementById("result13").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+        //Company Code
+        function B_btn14(text) {
+            document.getElementById("result14").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn14(text1) {
+            document.getElementById("result14").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn14(text2) {
+            document.getElementById("result14").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn14(text3) {
+            document.getElementById("result14").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+        //Company Code
+        function B_btn15(text) {
+            document.getElementById("result15").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn15(text1) {
+            document.getElementById("result15").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn15(text2) {
+            document.getElementById("result15").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn15(text3) {
+            document.getElementById("result15").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+        //Company Code
+        function B_btn16(text) {
+            document.getElementById("result16").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn16(text1) {
+            document.getElementById("result16").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn16(text2) {
+            document.getElementById("result16").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn16(text3) {
+            document.getElementById("result16").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+
+        //Company Code
+        function B_btn17(text) {
+            document.getElementById("result17").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn17(text1) {
+            document.getElementById("result17").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn17(text2) {
+            document.getElementById("result17").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn17(text3) {
+            document.getElementById("result17").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+        //Company Code
+        function B_btn18(text) {
+            document.getElementById("result18").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn18(text1) {
+            document.getElementById("result18").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn18(text2) {
+            document.getElementById("result18").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn18(text3) {
+            document.getElementById("result18").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+        //Company Code
+        function B_btn19(text) {
+            document.getElementById("result19").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn19(text1) {
+            document.getElementById("result19").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn19(text2) {
+            document.getElementById("result19").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn19(text3) {
+            document.getElementById("result19").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+
+        //Company Code
+        function B_btn20(text) {
+            document.getElementById("result20").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn20(text1) {
+            document.getElementById("result20").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn20(text2) {
+            document.getElementById("result20").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn20(text3) {
+            document.getElementById("result20").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+        //Company Code
+        function B_btn21(text) {
+            document.getElementById("result21").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn21(text1) {
+            document.getElementById("result21").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn21(text2) {
+            document.getElementById("result21").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn21(text3) {
+            document.getElementById("result21").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+        //Company Code
+        function B_btn22(text) {
+            document.getElementById("result22").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn22(text1) {
+            document.getElementById("result22").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn22(text2) {
+            document.getElementById("result22").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn22(text3) {
+            document.getElementById("result22").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+        //Company Code
+        function B_btn23(text) {
+            document.getElementById("result23").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn23(text1) {
+            document.getElementById("result23").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn23(text2) {
+            document.getElementById("result23").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn23(text3) {
+            document.getElementById("result23").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+        //Company Code
+        function B_btn24(text) {
+            document.getElementById("result24").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn24(text1) {
+            document.getElementById("result24").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn24(text2) {
+            document.getElementById("result24").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn24(text3) {
+            document.getElementById("result24").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+        //Company Code
+        function B_btn25(text) {
+            document.getElementById("result25").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn25(text1) {
+            document.getElementById("result25").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn25(text2) {
+            document.getElementById("result25").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn25(text3) {
+            document.getElementById("result25").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+        //Company Code
+        function B_btn26(text) {
+            document.getElementById("result26").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn26(text1) {
+            document.getElementById("result26").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn26(text2) {
+            document.getElementById("result26").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn26(text3) {
+            document.getElementById("result26").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+        //Company Code
+        function B_btn27(text) {
+            document.getElementById("result27").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn27(text1) {
+            document.getElementById("result27").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn27(text2) {
+            document.getElementById("result27").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn27(text3) {
+            document.getElementById("result27").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+        //Company Code
+        function B_btn28(text) {
+            document.getElementById("result28").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn28(text1) {
+            document.getElementById("result28").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn28(text2) {
+            document.getElementById("result28").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn28(text3) {
+            document.getElementById("result28").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+        //Company Code
+        function B_btn29(text) {
+            document.getElementById("result29").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn29(text1) {
+            document.getElementById("result29").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn29(text2) {
+            document.getElementById("result29").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn29(text3) {
+            document.getElementById("result29").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+        //Company Code
+        function B_btn30(text) {
+            document.getElementById("result30").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn30(text1) {
+            document.getElementById("result30").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn30(text2) {
+            document.getElementById("result30").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn30(text3) {
+            document.getElementById("result30").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+        //Company Code
+        function B_btn31(text) {
+            document.getElementById("result31").value = "<B>" + text + "</B>";
+        }
+
+        function I_btn31(text1) {
+            document.getElementById("result31").value = "<I>" + text1 + "</I>";
+        }
+
+        function U_btn31(text2) {
+            document.getElementById("result31").value = "<U>" + text2 + "</U>";
+        }
+
+        function R_btn31(text3) {
+            document.getElementById("result31").value = "<R>" + text3 + "</R>";
+        }
+
+
+
+
+    </script>
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrollex.min.js"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>
@@ -203,6 +1680,201 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+int counter=0;
+String a[];
+    <script>
+        function btnSubmit() {
+            //var tf1 = document.getElementById("t1").value
+             //var tf2 = document.getElementById("t2").value
+            // var tf3 = document.getElementById("t3").value
+            // var tf4 = document.getElementById("t4").value
+            // var tf5 = document.getElementById("t5").value
+            // var tf6 = document.getElementById("t6").value
+            // var tf7 = document.getElementById("t7").value
+            // var tf8 = document.getElementById("t8").value
+            // var tf9 = document.getElementById("t9").value
+            // var tf10 = document.getElementById("t10").value
+            // var tf11 = document.getElementById("t11").value
+            // var tf12 = document.getElementById("t12").value
+            // var tf13 = document.getElementById("t13").value
+            // var tf14 = document.getElementById("t14").value
+            // var tf15 = document.getElementById("t15").value
+            // var tf16 = document.getElementById("t16").value
+            // var tf17 = document.getElementById("t17").value
+            // var tf18 = document.getElementById("t18").value
+            // var tf19 = document.getElementById("t19").value
+            // var tf20 = document.getElementById("t20").value
+            // var tf21 = document.getElementById("t21").value
+            // var tf22 = document.getElementById("t22").value
+            // var tf23 = document.getElementById("t23").value
+            // var tf24 = document.getElementById("t24").value
+            // var tf25 = document.getElementById("t25").value
+            // var tf26 = document.getElementById("t26").value
+            // var tf27 = document.getElementById("t27").value
+            // var tf28 = document.getElementById("t28").value
+            // var tf29 = document.getElementById("t29").value
+            // var tf30 = document.getElementById("t30").value
+            // var tf31 = document.getElementById("t31").value
+
+          
+            if (
+                document.getElementById("t1").value == "" ||
+                document.getElementById("t2").value == "" || 
+                document.getElementById("t3").value == "" ||
+                document.getElementById("t4").value == "" ||
+                document.getElementById("t5").value == "" || 
+                document.getElementById("t6").value == "" ||
+                document.getElementById("t7").value == "" ||
+                document.getElementById("t8").value == "" || 
+                document.getElementById("t9").value == "" ||
+                document.getElementById("t10").value == "" ||
+                document.getElementById("t11").value == "" || 
+                document.getElementById("t12").value == "" ||
+                document.getElementById("t13").value == "" ||
+                document.getElementById("t14").value == "" || 
+                document.getElementById("t15").value == "" ||
+                document.getElementById("t16").value == "" ||
+                document.getElementById("t17").value == "" || 
+                document.getElementById("t18").value == "" ||
+                document.getElementById("t19").value == "" ||
+                document.getElementById("t20").value == "" || 
+                document.getElementById("t21").value == "" ||
+                document.getElementById("t22").value == "" ||
+                document.getElementById("t23").value == "" || 
+                document.getElementById("t24").value == "" ||
+                document.getElementById("t25").value == "" ||
+                document.getElementById("t26").value == "" || 
+                document.getElementById("t27").value == "" ||
+                document.getElementById("t28").value == "" ||
+                document.getElementById("t29").value == "" || 
+                document.getElementById("t30").value == "" 
+                )  {
+              alert("1 or more textfield is empty")
+               // document.getElementById('t1').style.borderColor='#e52213';
+            }
+            else{
+                alert("Form successfully Submitted")
+            }
+           
+
+           
+               
+
+            // if (tf4 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t4').style.borderColor='#e52213';
+            // }
+            // if (tf5 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t5').style.borderColor='#e52213';
+            // }
+            // if (tf6 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t6').style.borderColor='#e52213';
+            // }
+            // if (tf7 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t7').style.borderColor='#e52213';
+            // }
+            // if (tf8 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t8').style.borderColor='#e52213';
+            // }
+            // if (tf9 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t9').style.borderColor='#e52213';
+            // }
+            // if (tf10 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t10').style.borderColor='#e52213';
+            // }
+            // if (tf11 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t11').style.borderColor='#e52213';
+            // }
+            // if (tf12 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t12').style.borderColor='#e52213';
+            // }
+            // if (tf13 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t13').style.borderColor='#e52213';
+            // }
+            // if (tf14 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t14').style.borderColor='#e52213';
+            // }
+            // if (tf15 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t15').style.borderColor='#e52213';
+            // }
+            // if (tf16 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t16').style.borderColor='#e52213';
+            // }
+            // if (tf17 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t17').style.borderColor='#e52213';
+            // }
+            // if (tf18 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t18').style.borderColor='#e52213';
+            // }
+            // if (tf19 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t19').style.borderColor='#e52213';
+            // }
+            // if (tf20 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t20').style.borderColor='#e52213';
+            // }
+            // if (tf21 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t21').style.borderColor='#e52213';
+            // }
+            // if (tf22 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t22').style.borderColor='#e52213';
+            // }
+            // if (tf23 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t23').style.borderColor='#e52213';
+            // }
+            // if (tf24 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t24').style.borderColor='#e52213';
+            // }
+            // if (tf25 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t25').style.borderColor='#e52213';
+            // }
+            // if (tf26 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t26').style.borderColor='#e52213';
+            // }
+            // if (tf27 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t27').style.borderColor='#e52213';
+            // }
+            // if (tf28 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t28').style.borderColor='#e52213';
+            // }
+            // if (tf29 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t29').style.borderColor='#e52213';
+            // }
+            // if (tf30 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t30').style.borderColor='#e52213';
+            // }
+            // if (tf31 == "") {
+            //     alert("1 or more textfiled is empty")
+            //     document.getElementById('t31').style.borderColor='#e52213';
+            // }
+           
+        }
+    </script>
 
 </body>
 
